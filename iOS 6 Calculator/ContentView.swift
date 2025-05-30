@@ -37,7 +37,8 @@ struct ContentView: View {
                         
 //                        Text("\(currentEquation) : \(currentDisplayNumber)")
                         Text(formatWithCommas(currentDisplayNumber))
-                            .font(.custom("Helvetica Neue", size: 50))
+                            .font(.custom("Helvetica Neue", size: 70))
+                            .fontWeight(.medium)
                     }.padding(20)
                     
                 }.layoutPriority(0)
