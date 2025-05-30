@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B99EBE402DE8F8AE00A6A08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99EBE3B2DE8F8AE00A6A08F /* Assets.xcassets */; };
+		B99EBE412DE8F8AE00A6A08F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EBE3C2DE8F8AE00A6A08F /* ContentView.swift */; };
+		B99EBE422DE8F8AE00A6A08F /* hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EBE3D2DE8F8AE00A6A08F /* hex.swift */; };
+		B99EBE432DE8F8AE00A6A08F /* iOS_6_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EBE3E2DE8F8AE00A6A08F /* iOS_6_CalculatorApp.swift */; };
+		B99EBE452DE966E800A6A08F /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EBE442DE966E800A6A08F /* SoundPlayer.swift */; };
+		B99EBE472DE9670800A6A08F /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B99EBE462DE9670800A6A08F /* click.m4a */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B99EBE2B2DE8F3E400A6A08F /* iOS 6 Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS 6 Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99EBE3B2DE8F8AE00A6A08F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B99EBE3C2DE8F8AE00A6A08F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B99EBE3D2DE8F8AE00A6A08F /* hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hex.swift; sourceTree = "<group>"; };
+		B99EBE3E2DE8F8AE00A6A08F /* iOS_6_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_6_CalculatorApp.swift; sourceTree = "<group>"; };
+		B99EBE442DE966E800A6A08F /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		B99EBE462DE9670800A6A08F /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B99EBE2D2DE8F3E400A6A08F /* iOS 6 Calculator */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "iOS 6 Calculator";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B99EBE282DE8F3E400A6A08F /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		B99EBE222DE8F3E400A6A08F = {
 			isa = PBXGroup;
 			children = (
-				B99EBE2D2DE8F3E400A6A08F /* iOS 6 Calculator */,
+				B99EBE3F2DE8F8AE00A6A08F /* iOS 6 Calculator */,
 				B99EBE2C2DE8F3E400A6A08F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,19 @@
 				B99EBE2B2DE8F3E400A6A08F /* iOS 6 Calculator.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B99EBE3F2DE8F8AE00A6A08F /* iOS 6 Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				B99EBE3E2DE8F8AE00A6A08F /* iOS_6_CalculatorApp.swift */,
+				B99EBE3C2DE8F8AE00A6A08F /* ContentView.swift */,
+				B99EBE442DE966E800A6A08F /* SoundPlayer.swift */,
+				B99EBE3D2DE8F8AE00A6A08F /* hex.swift */,
+				B99EBE3B2DE8F8AE00A6A08F /* Assets.xcassets */,
+				B99EBE462DE9670800A6A08F /* click.m4a */,
+			);
+			path = "iOS 6 Calculator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +79,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B99EBE2D2DE8F3E400A6A08F /* iOS 6 Calculator */,
 			);
 			name = "iOS 6 Calculator";
 			packageProductDependencies = (
@@ -109,6 +126,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99EBE402DE8F8AE00A6A08F /* Assets.xcassets in Resources */,
+				B99EBE472DE9670800A6A08F /* click.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99EBE412DE8F8AE00A6A08F /* ContentView.swift in Sources */,
+				B99EBE422DE8F8AE00A6A08F /* hex.swift in Sources */,
+				B99EBE452DE966E800A6A08F /* SoundPlayer.swift in Sources */,
+				B99EBE432DE8F8AE00A6A08F /* iOS_6_CalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +282,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,8 +310,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
