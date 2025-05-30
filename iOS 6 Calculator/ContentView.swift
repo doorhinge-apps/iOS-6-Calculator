@@ -228,6 +228,9 @@ struct ContentView: View {
     }
     
     func updateOperator(newOperator: String) {
+        if currentEquation == "" {
+            currentEquation = currentDisplayNumber
+        }
         if currentEquation.last == "+" || currentEquation.last == "-" || currentEquation.last == "×" || currentEquation.last == "÷" {
             currentEquation.removeLast()
         }
@@ -446,12 +449,13 @@ struct BlueButton: ButtonStyle {
                     .font(.custom("Helvetica Neue Bold", size: 30))
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
-                    .onChange(of: configuration.isPressed) { oldValue, newValue in
+                    .onChange(of: configuration.isPressed) { newValue in
                         if configuration.isPressed {
                             UIImpactFeedbackGenerator(style: .light).impactOccurred()
                             SoundEffectPlayer.shared.play()
                         }
                     }
+                    
                 
                 RoundedRectangle(cornerRadius: 10)
 //                    .stroke(Color.black, lineWidth: 3)
